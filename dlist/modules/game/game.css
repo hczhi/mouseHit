@@ -1,0 +1,56 @@
+.gamebox {
+  position: relative;
+}
+.gameStage {
+  width: 90%;
+  position: relative;
+  margin: 10px auto;
+}
+.mouse_box {
+  position: absolute;
+  width: 30%;
+  border: 1px solid #ccc;
+}
+.mouse {
+  width: 100%;
+  height: 100%;
+  background: #09f;
+  -moz-transition: all 0.5s ease 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s ease 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.5s ease 0s;
+  /* Opera */
+  transition: all 0.5s ease 0s;
+  margin: 0 auto;
+}
+.mouse2 {
+  width: 100%;
+  height: 100%;
+  background: #FF5363;
+  margin: 0 auto;
+  -moz-transition: all 0.5s ease 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s ease 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.5s ease 0s;
+  /* Opera */
+  transition: all 0.5s ease 0s;
+}
+.animationSmall {
+  -webkit-transform: scale3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: scale3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+.animationbig {
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+  /* Safari 和 Chrome */
+  -o-transform: scale3d(1.2, 1.2, 1);
+  /* Opera */
+  -moz-transform: scale3d(1.2, 1.2, 1);
+  transform: scale3d(1.2, 1.2, 1);
+  opacity: 0;
+}

@@ -1,0 +1,956 @@
+body {
+  background: #f5b2d0;
+}
+.index {
+  position: relative;
+  background: url('/css/images/index_bg.jpg');
+  background-size: 100%;
+  -moz-transition: all 0.5s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.5s ease-in 0s;
+  /* Opera */
+  transition: all 0.5s ease-in 0s;
+  -webkit-transform: scale3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: scale3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+.index .logo {
+  width: 99px;
+  height: 40px;
+  background: url('/css/images/logo.png');
+  background-size: 100%;
+  position: absolute;
+  left: 17px;
+  top: 40px;
+}
+.index .text {
+  width: 252px;
+  height: 152px;
+  background: url('/css/images/index_p5.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -126px;
+  top: 80px;
+}
+.index .girl {
+  width: 160px;
+  height: 307px;
+  background: url('/css/images/index_p6.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 200px;
+}
+.index .a1 {
+  width: 80px;
+  height: 22px;
+  line-height: 22px;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 390px;
+  color: #ff0072;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: center;
+}
+.index .a2 {
+  width: 170px;
+  height: 40px;
+  background: url('/css/images/index_p1.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -85px;
+  top: 420px;
+}
+.index .a3 {
+  width: 170px;
+  height: 40px;
+  background: url('/css/images/index_p2.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -85px;
+  top: 470px;
+}
+.index .b1 {
+  width: 59px;
+  height: 66px;
+  background: url('/css/images/index_p4.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 20px;
+  top: 290px;
+  -webkit-animation: monster ease-out 1.5s infinite;
+  animation: monster ease-out 1.5s infinite;
+  -webkit-transform: translate3d(-150px, 0, 0) scale3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(-150px, 0, 0) scale3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: translate3d(-150px, 0, 0) scale3d(0, 0, 0);
+  transform: translate3d(-150px, 0, 0) scale3d(0, 0, 0);
+  -moz-transition: all 1s ease 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 1s ease 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 1s ease 0s;
+  /* Opera */
+  transition: all 1s ease 0s;
+}
+.index .b2 {
+  width: 59px;
+  height: 73px;
+  background: url('/css/images/index_p3.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 15px;
+  top: 340px;
+  -webkit-animation: monster2 ease-out 1.5s infinite;
+  animation: monster2 ease-out 1.5s infinite;
+  -webkit-transform: translate3d(150px, 0, 0) scale3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(150px, 0, 0) scale3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: translate3d(150px, 0, 0) scale3d(0, 0, 0);
+  transform: translate3d(150px, 0, 0) scale3d(0, 0, 0);
+  -moz-transition: all 1s ease 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 1s ease 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 1s ease 0s;
+  /* Opera */
+  transition: all 1s ease 0s;
+}
+@keyframes monster {
+  0% {
+    top: 290;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 290px;
+  }
+}
+@-webkit-keyframes monster {
+  0% {
+    top: 290;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 290px;
+  }
+}
+@keyframes monster2 {
+  0% {
+    top: 340px;
+  }
+  50% {
+    top: 320px;
+  }
+  100% {
+    top: 340px;
+  }
+}
+@-webkit-keyframes monster2 {
+  0% {
+    top: 340px;
+  }
+  50% {
+    top: 320px;
+  }
+  100% {
+    top: 340px;
+  }
+}
+.logo {
+  width: 99px;
+  height: 40px;
+  background: url('/css/images/logo.png');
+  background-size: 100%;
+  position: absolute;
+  left: 17px;
+  top: 40px;
+  z-index: 10;
+}
+.gamebox {
+  position: absolute;
+  left: 0px;
+  background: #f5b2d0;
+  -moz-transition: all 1s ease-out 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 1s ease-out 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 1s ease-out 0s;
+  /* Opera */
+  transition: all 1s ease-out 0s;
+}
+.gamebox .logo {
+  width: 99px;
+  height: 40px;
+  background: url('/css/images/logo.png');
+  background-size: 100%;
+  position: absolute;
+  left: 17px;
+  top: 40px;
+}
+.gamebox .game_bg {
+  width: 320px;
+  height: 362px;
+  background: url('/css/images/game_bg.png');
+  background-size: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.gamebox .game_bg .mbox {
+  position: absolute;
+  width: 65px;
+  height: 85px;
+  z-index: 11;
+}
+.gamebox .game_bg .mbox .c {
+  width: 65px;
+  height: 85px;
+  overflow: hidden;
+}
+.gamebox .game_bg .mbox .n {
+  width: 65px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  -moz-transition: all 0.5s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.5s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.5s ease-in 0s;
+  /* Opera */
+  transition: all 0.5s ease-in 0s;
+  -webkit-transform: translate3d(0, 0px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 0px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+.gamebox .game_bg .mbox .socreTextAni {
+  -webkit-transform: translate3d(0, -20px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, -20px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+  opacity: 0;
+}
+.gamebox .girl {
+  width: 174px;
+  height: 239px;
+  background: url('/css/images/girl.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 85px;
+}
+.gamebox .box1 {
+  width: 115px;
+  height: 40px;
+  background: url('/css/images/game_p1.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  line-height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.gamebox .box1 span {
+  font-size: 20px;
+}
+.gamebox .box2 {
+  width: 61px;
+  height: 61px;
+  background: url('/css/images/game_p2.png') no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 30px;
+  top: 200px;
+  line-height: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+.gamebox .box2 span {
+  font-size: 20px;
+}
+.gamebox .bottom {
+  width: 280px;
+  height: 22px;
+  background: #fff;
+  color: #ef63a2;
+  border-radius: 5px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -140px;
+  font-size: 12px;
+  overflow: hidden;
+}
+.gamebox .bottom span {
+  display: inline-block;
+  margin-right: 3px;
+}
+.mask {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  width: 320px;
+  width: 100%;
+  height: 100%;
+}
+.mask .m1 {
+  background: url('/css/images/pic1.png') no-repeat;
+  background-size: 100%;
+  width: 135px;
+  height: 115px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.mask .m1_1 {
+  background: url('/css/images/pic8.png') no-repeat;
+  background-size: 100%;
+  width: 135px;
+  height: 115px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.mask .m2 {
+  background: url('/css/images/pic2.png') no-repeat;
+  background-size: 100%;
+  width: 151px;
+  height: 123px;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  top: 120px;
+}
+.mask .m3 {
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 250px;
+  color: #ffda00;
+}
+.mask .m3 p {
+  color: #fff;
+}
+.mask .cj_btn {
+  background: url('/css/images/pic3.png') no-repeat;
+  background-size: 100%;
+  width: 159px;
+  height: 41px;
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 320px;
+}
+.mask .share_btn {
+  background: url('/css/images/pic7.png') no-repeat;
+  background-size: 100%;
+  width: 159px;
+  height: 41px;
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 320px;
+}
+.mask2,
+.mask3 {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+.mask2 .m1,
+.mask3 .m1 {
+  background: url('/css/images/pic1.png') no-repeat;
+  background-size: 100%;
+  width: 135px;
+  height: 115px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.mask2 .m2,
+.mask3 .m2 {
+  background: url('/css/images/pic4.png') no-repeat;
+  background-size: 100%;
+  width: 158px;
+  height: 119px;
+  position: absolute;
+  left: 50%;
+  margin-left: -79px;
+  top: 120px;
+}
+.mask2 .m3,
+.mask3 .m3,
+.mask2 .m4,
+.mask3 .m4 {
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 250px;
+  color: #ffda00;
+}
+.mask2 .m3 p,
+.mask3 .m3 p,
+.mask2 .m4 p,
+.mask3 .m4 p {
+  color: #fff;
+}
+.mask2 .again_btn,
+.mask3 .again_btn {
+  background: url('/css/images/pic5.png') no-repeat;
+  background-size: 100%;
+  width: 159px;
+  height: 41px;
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 305px;
+}
+.mask2 .a_btn,
+.mask3 .a_btn {
+  background: url('/css/images/pic6.png') no-repeat;
+  background-size: 100%;
+  width: 159px;
+  height: 41px;
+  position: absolute;
+  left: 50%;
+  margin-left: -80px;
+  top: 380px;
+}
+.mask2 .m4,
+.mask3 .m4 {
+  top: 350px;
+}
+.mask3 {
+  width: 100%;
+  height: 100%;
+}
+.mask3 .m3 {
+  top: 261px;
+}
+.cj_box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #f5b2d0;
+  z-index: 80;
+}
+.cj_box .cj_c {
+  width: 309px;
+  height: 312px;
+  margin: 30px auto 0;
+  position: relative;
+  background: url('/css/images/cj.jpg') no-repeat;
+  background-size: 100%;
+}
+.cj_box .cj_c .cnt {
+  background: rgba(0, 0, 0, 0.5);
+}
+.cj_box .cj_c .cell {
+  width: 97px;
+  height: 97px;
+  border-radius: 10px;
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+.cj_box .cj_c .cell .c {
+  width: 97px;
+  height: 97px;
+}
+.cj_box .cj_c .cell .c1 {
+  background: url('/css/images/cj_p1.png');
+  background-size: 100%;
+}
+.cj_box .cj_c .cell .c2 {
+  background: url('/css/images/cj_p2.png');
+  background-size: 100%;
+}
+.cj_box .cj_c .cell .c3 {
+  background: url('/css/images/cj_p3.png');
+  background-size: 100%;
+}
+.cj_box .cj_c .cell .c4 {
+  background: url('/css/images/cj_p8.png');
+  background-size: 100%;
+}
+.cj_box .cj_c .cell .c5 {
+  background: url('/css/images/cj_p4.png');
+  background-size: 100%;
+}
+.cj_box .cj_btn {
+  width: 176px;
+  height: 41px;
+  background: url("/css/images/cj_p5.png") no-repeat;
+  background-size: 100%;
+  margin: 20px auto 0;
+}
+.cj_box .palyagain_btn {
+  width: 145px;
+  height: 41px;
+  background: url("/css/images/cj_p6.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 10px;
+  top: 420px;
+}
+.cj_box .zhuangbei_btn {
+  width: 145px;
+  height: 41px;
+  background: url("/css/images/cj_p7.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 10px;
+  top: 420px;
+  display: block;
+}
+.info {
+  background: url('/css/images/info_bg.jpg') repeat-x 0 118px #fcd8e9;
+  position: relative;
+}
+.info input {
+  position: absolute;
+  width: 156px;
+  height: 23px;
+  line-height: 23px;
+  border: 0px;
+  text-indent: 12px;
+  right: 15px;
+  top: 7px;
+  font-size: 16px;
+  color: #666;
+}
+.info .info_c1 {
+  width: 262px;
+  height: 40px;
+  position: relative;
+  background: url('/css/images/info_p1.png') no-repeat;
+  background-size: 100%;
+  margin: 10px auto 0;
+}
+.info .info_c2 {
+  width: 262px;
+  height: 40px;
+  position: relative;
+  background: url('/css/images/info_p2.png') no-repeat;
+  background-size: 100%;
+  margin: 10px auto 0;
+}
+.info .info_c3 {
+  width: 262px;
+  height: 40px;
+  position: relative;
+  background: url('/css/images/info_p3.png') no-repeat;
+  background-size: 100%;
+  margin: 10px auto 0;
+}
+.info .submit {
+  width: 142px;
+  height: 35px;
+  background: url('/css/images/info_p4.png') no-repeat;
+  background-size: 100%;
+  margin: 20px auto 0;
+}
+.info_t {
+  width: 320px;
+  height: 119px;
+  background: url('/css/images/info_top.jpg') no-repeat;
+  background-size: 100%;
+}
+.gamebox {
+  width: 320px;
+}
+.gamebox .progress {
+  position: relative;
+  height: 568px;
+}
+.gamebox .progress .progressCon {
+  width: 280px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
+  top: 50%;
+  margin-top: -80px;
+  border-radius: 10px;
+}
+.gamebox .progress .progressCon .p {
+  width: 260px;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #E583AF;
+}
+.gamebox .progress .progressCon .progress-bar {
+  background: #E583AF;
+  height: 6px;
+  width: 0%;
+  transition: width .6s;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  background-size: 20px 20px;
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+.gamebox .progress .progressCon .t {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 0px 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+.animate1 {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0);
+}
+.indexhosw {
+  -webkit-transform: scale3d(1, 1, 1);
+  /* Safari 和 Chrome */
+  -o-transform: scale3d(1, 1, 1);
+  /* Opera */
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+.indexhid {
+  -webkit-transform: scale3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: scale3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: scale3d(0, 0, 0);
+  transform: scale3d(0, 0, 0);
+}
+.index .index_b1ani {
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  /* Opera */
+  -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+.game_b1 {
+  width: 63px;
+  height: 85px;
+  -moz-transition: all 0.3s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-in 0s;
+  /* Opera */
+  transition: all 0.3s ease-in 0s;
+  -webkit-transform: translate3d(0, 85px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 85px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 85px, 0);
+  transform: translate3d(0, 85px, 0);
+  background: url('/css/images/g4.png') no-repeat;
+  background-size: 100%;
+}
+.game_b1_1 {
+  background: url('/css/images/g3.png') no-repeat;
+  background-size: 100%;
+}
+.game_b2 {
+  width: 63px;
+  height: 85px;
+  -moz-transition: all 0.3s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-in 0s;
+  /* Opera */
+  transition: all 0.3s ease-in 0s;
+  -webkit-transform: translate3d(0, 85px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 85px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 85px, 0);
+  transform: translate3d(0, 85px, 0);
+  background: url('/css/images/g1.png') no-repeat;
+  background-size: 100%;
+}
+.game_b3 {
+  width: 63px;
+  height: 85px;
+  -moz-transition: all 0.3s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-in 0s;
+  /* Opera */
+  transition: all 0.3s ease-in 0s;
+  -webkit-transform: translate3d(0, 85px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 85px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 85px, 0);
+  transform: translate3d(0, 85px, 0);
+  background: url('/css/images/g2.png') no-repeat;
+  background-size: 100%;
+}
+.game_b4 {
+  width: 63px;
+  height: 85px;
+  -moz-transition: all 0.3s ease-in 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.3s ease-in 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.3s ease-in 0s;
+  /* Opera */
+  transition: all 0.3s ease-in 0s;
+  -webkit-transform: translate3d(0, 85px, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 85px, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 85px, 0);
+  transform: translate3d(0, 85px, 0);
+  background: url('/css/images/g5.png') no-repeat;
+  background-size: 100%;
+}
+.game_b1_boom {
+  background: url('/css/images/g6.png') no-repeat;
+  background-size: 100%;
+}
+.game_b_boom2 {
+  opacity: 0;
+}
+.game_b_ani1 {
+  -webkit-transform: translate3d(0, 0, 0);
+  /* Safari 和 Chrome */
+  -o-transform: translate3d(0, 0, 0);
+  /* Opera */
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.cp_box {
+  overflow: auto;
+}
+.cp_box .cp_pic {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.cp_box .cp_pic span {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  display: block;
+  right: 15px;
+  top: 95px;
+}
+.cp_bg {
+  background: url('/css/images/cp.jpg') no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.cp_bg span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.cp_bg span i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: rgba(235, 140, 182, 0.8);
+  border-radius: 15px;
+}
+.cp_bg span em {
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  top: 3px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url('/css/images/cp_btn.png') no-repeat;
+  background-size: 100%;
+}
+.cp_bg .c1 {
+  left: 235px;
+  top: 325px;
+}
+.cp_bg .c1 i {
+  -webkit-animation: cp ease 1.5s infinite;
+  animation: cp ease  1.5s infinite;
+}
+.cp_bg .c2 {
+  left: 378px;
+  top: 314px;
+}
+.cp_bg .c2 i {
+  -webkit-animation: cp ease 1.5s infinite 0.5s;
+  animation: cp ease  1.5s infinite 0.5s;
+}
+.cp_bg .c3 {
+  left: 578px;
+  top: 334px;
+}
+.cp_bg .c3 i {
+  -webkit-animation: cp ease 1.5s infinite;
+  animation: cp ease  1.5s infinite;
+}
+.cp_bg .c4 {
+  left: 659px;
+  top: 317px;
+}
+.cp_bg .c4 i {
+  -webkit-animation: cp ease 1.5s infinite 1s;
+  animation: cp ease  1.5s infinite 1s;
+}
+.cp_bg .c5 {
+  left: 708px;
+  top: 310px;
+}
+.cp_bg .c5 i {
+  -webkit-animation: cp ease 1.5s infinite 0.8s;
+  animation: cp ease  1.5s infinite 0.8s;
+}
+.cp_bg .c6 {
+  left: 751px;
+  top: 305px;
+}
+.cp_bg .c6 i {
+  -webkit-animation: cp ease 1.5s infinite 1s;
+  animation: cp ease  1.5s infinite 1s;
+}
+.cp_bg .c7 {
+  left: 803px;
+  top: 331px;
+}
+.cp_bg .c7 i {
+  -webkit-animation: cp ease 1.5s infinite 0.5s;
+  animation: cp ease  1.5s infinite 0.5s;
+}
+.cp_bg .c8 {
+  left: 671px;
+  top: 390px;
+}
+.cp_bg .c8 i {
+  -webkit-animation: cp ease 1.5s infinite;
+  animation: cp ease  1.5s infinite;
+}
+@keyframes cp {
+  0% {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale3d(1.3, 1.3, 1);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes cp {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale3d(1.3, 1.3, 1);
+    opacity: 0;
+  }
+}
+.smbox {
+  background: url(/css/images/sm1.jpg) no-repeat #fefbfc;
+  background-size: 100%;
+  padding-top: 170px;
+  font-size: 12px;
+}
+.smbox .tit {
+  padding-left: 25px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.smbox .tit span {
+  width: 75px;
+  background: #eb6ea5;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20px;
+  display: inline-block;
+  height: 20px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.smbox .tit em {
+  color: #f39700;
+  font-size: 12px;
+}
+.smbox .sm_con {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+.smbox .sm_con li {
+  width: 90%;
+  margin-bottom: 2px;
+  padding-left: 18px;
+  background: url(/css/images/sm2.jpg) no-repeat 3px 5px;
+}
+.smbox .sm_tip {
+  margin: 20px 0 0 25px;
+  font-size: 14px;
+  color: #333;
+}

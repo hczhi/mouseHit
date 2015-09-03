@@ -1,0 +1,16 @@
+/**
+ 	* @require common/css/reset.less
+ */
+@font-face {
+  font-family: "ft1";
+  src: url(//:) format("no404"), url("/css/images/ft2.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: ft1, Helvetica, sans-serif;
+  font-size: 16px;
+}
+div {
+  line-height: 26px;
+}
